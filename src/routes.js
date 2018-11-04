@@ -5,10 +5,10 @@ import Organization from "./pages/organization";
 
 const Routes = () => (
   <Router>
-    <div>
+    <>
       <Route exact path="/" component={Home} />
       <Route path="/orgs/:org" component={Organization} />
-    </div>
+    </>
   </Router>
 );
 

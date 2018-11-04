@@ -1,18 +1,31 @@
+.body {
+  background: linear-gradient(to right, #f2f2f2, #dbdbdb, #eaeaea);
+}
+
 .home {
   text-align: center;
+  margin: 20px;
+}
+
+@media (min-width: 960px) {
+  .home {
+    max-width: 920px;
+    margin: 20px auto;
+  }
 }
 
 .header {
-  background-color: white;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 60px;
 }
 
-.link {
-  color: #61dafb;
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding-top: 16px;
 }
