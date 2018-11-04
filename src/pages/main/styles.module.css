@@ -1,14 +1,14 @@
-.App {
+.main {
   text-align: center;
 }
 
-.App-logo {
+.logo {
   border-radius: 50%;
   background: linear-gradient(to top right, #2b4c97, #283858);
   height: 40vmin;
 }
 
-.App-header {
+.header {
   background-color: white;
   min-height: 100vh;
   display: flex;
@@ -19,15 +19,6 @@
   color: white;
 }
 
-.App-link {
+.link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
