@@ -22,10 +22,3 @@
   font-size: calc(10px + 2vmin);
   margin-top: 60px;
 }
-
-.search {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  padding-top: 16px;
-}

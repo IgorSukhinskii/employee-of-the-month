@@ -1,0 +1,6 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding-top: 16px;
+}
