@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./styles.module.css";
-import Repositories from "../../components/repositories";
 import Logo from "../../components/logo";
 
 const Main = () => (
@@ -8,7 +7,6 @@ const Main = () => (
     <header className={styles.header}>
       <Logo />
     </header>
-    <Repositories />
   </div>
 );
 

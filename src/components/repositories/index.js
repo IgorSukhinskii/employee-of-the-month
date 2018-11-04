@@ -8,13 +8,17 @@ const withRepositories = Component => {
     };
 
     componentDidMount() {
-      fetch("https://api.github.com/orgs/Vincit/repos")
+      const { org } = this.props;
+
+      fetch(
+        `https://api.github.com/search/repositories?q=user:${org}&sort=stars&order=desc`
+      )
         .then(response => response.json())
         .then(this.updateRepos);
     }
 
-    updateRepos = repos => {
-      this.setState({ repos });
+    updateRepos = data => {
+      this.setState({ repos: data.items });
     };
 
     render() {
