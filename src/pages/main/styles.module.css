@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-.logo {
-  border-radius: 50%;
-  background: linear-gradient(to top right, #2b4c97, #283858);
-  height: 40vmin;
-}
-
 .header {
   background-color: white;
   min-height: 100vh;
