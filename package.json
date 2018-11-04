@@ -12,7 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "format": "prettier --list-different src/**/*.js"
+    "format": "prettier --write \"src/**/*.{js,css}\"",
+    "format:check": "prettier --list-different \"src/**/*.{js,css}\""
   },
   "eslintConfig": {
     "extends": "react-app"
