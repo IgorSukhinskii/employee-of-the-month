@@ -3,12 +3,13 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  border-radius: 50%;
+  background: linear-gradient(to top right, #2b4c97, #283858);
   height: 40vmin;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
