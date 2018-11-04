@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import styles from "./styles.module.css";
+import Repositories from "./../../components/repositories";
 
 const Main = () => (
   <div className={styles.main}>
@@ -18,6 +19,7 @@ const Main = () => (
         Learn React
       </a>
     </header>
+    <Repositories />
   </div>
 );
 
